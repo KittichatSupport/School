@@ -55,3 +55,13 @@ elif lang == 'Th' :
         day = input('วัน : ')
         month = input('เดือน : ')
         year = input('ปี : ')
+##---------------Preview-----------------##
+sleep(3)
+if lang == 'Eng' :
+    print('So let read what we got now')
+    sleep(1)
+    print('Your name is ' + enname + ' , And Your Age is ' + age + ' , your birthday is ' + day + ' / ' + month + ' / ' + year)
+elif lang == 'Th' :
+    print('มาดูข้อมูลที่ Program มีตอนนี้กันนะ')
+    sleep(1)
+    print('คุณชื่อ ' + thname + ' , อายุของคุณคือ ' + age + ' ,วันเกิดของคุณคือ ' + day + ' / ' + month + ' / ' + year)
